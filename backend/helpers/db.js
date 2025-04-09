@@ -3,7 +3,6 @@ const { MongoClient } = require('mongodb');
 
 require('dotenv').config();
 
-//const uri = 'mongodb+srv://2021wb15708:ZVT84ycpTuNwhyy8@cluster0.nzgfp7g.mongodb.net/todo-app?retryWrites=true&w=majority&appName=Cluster07';
 const uri = process.env.MONGO_URI
 console.log(uri)
 const dbName = 'todo-app';
